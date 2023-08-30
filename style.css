@@ -1,7 +1,7 @@
 body{
     background-color: black;
 }
-p{
+p, ol{
     color:whitesmoke;
     margin:4px;
 }
