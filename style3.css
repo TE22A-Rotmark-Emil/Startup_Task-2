@@ -1,0 +1,11 @@
+.divAdvert{
+    border:2px solid yellow;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:50%;
+}
+#ad1{
+    width:50%;
+    height:25%;
+}
