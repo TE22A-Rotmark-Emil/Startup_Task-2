@@ -1,3 +1,6 @@
+h1{
+    text-align:center;
+}
 .divAdvert{
     border:0px;
     margin:0px;
@@ -12,19 +15,20 @@ img{
 }
 @keyframes animate {
     from {
-        top:-320px;
+        top:-720px;
     }
     to {
-        top:0px;
+        top:-405px;
     }
 }
 #ad1{
     animation-name: animate;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-direction: forwards;
     animation-iteration-count: 1;
     animation-delay: 0s;
     animation-timing-function: ease-in-out;
     width:100%;
     position:relative;
+    top:-405px;
 }
