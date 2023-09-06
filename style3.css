@@ -15,10 +15,10 @@ img{
 }
 @keyframes animate {
     from {
-        top:-720px;
+        top:-765px;
     }
     to {
-        top:-405px;
+        top:-450px;
     }
 }
 #ad1{
@@ -30,5 +30,19 @@ img{
     animation-timing-function: ease-in-out;
     width:100%;
     position:relative;
-    top:-405px;
+    top:-450px;
+}
+.headline{
+    text-align:center
+}
+.story{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    width:50%;
+}
+.piece{
+    display: flex;
+    flex-direction: column;
+    width:65%;
 }
