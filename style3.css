@@ -38,7 +38,8 @@ img{
 .story{
     display: flex;
     flex-direction: row;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
+    gap: 10px 10px;
     width:50%;
 }
 .piece{
